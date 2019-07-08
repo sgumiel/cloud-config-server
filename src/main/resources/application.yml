@@ -1,0 +1,10 @@
+server:  
+  port: 9001
+spring:  
+  application:
+    name: configserver  
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sgumiel/cloud-configuration
